@@ -14,7 +14,7 @@
     </parent>
     <groupId>tuto.springframework.petclinic</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <name>pet-clinic</name>
     <description>Pet clinic project</description>
 
@@ -43,7 +43,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:ALAZOUARI/pet-clinic.git</developerConnection>
-      <tag>pet-clinic-1.1</tag>
+      <tag>pet-clinic-1.2</tag>
   </scm>
 
 </project>
