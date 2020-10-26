@@ -14,19 +14,13 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>1.1</version>
+    <version>1.1-SNAPSHOT</version>
     <name>pet-clinic</name>
     <description>Pet clinic project</description>
 
     <properties>
         <java.version>11</java.version>
     </properties>
-
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-release-plugin -->
-
-
-    </dependencies>
 
     <build>
         <plugins>
@@ -51,6 +45,5 @@
         <developerConnection>scm:git:git@github.com:ALAZOUARI/pet-clinic.git</developerConnection>
       <tag>pet-clinic-1.1</tag>
   </scm>
-
 
 </project>
