@@ -26,7 +26,6 @@
     <dependencies>
 
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
