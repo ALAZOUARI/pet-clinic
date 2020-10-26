@@ -12,9 +12,9 @@
         <version>2.3.4.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <groupId>tuto.springframework.petclinic</groupId>
+    <groupId>com.example</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <name>pet-clinic</name>
     <description>Pet clinic project</description>
 
