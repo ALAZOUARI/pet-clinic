@@ -35,9 +35,18 @@
                     <skip>true</skip>
                 </configuration>
             </plugin>
-
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <goal>install</goal>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
-
+    <scm>
+        <developerConnection>scm:git:git@github.com:ALAZOUARI/pet-clinic.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
