@@ -9,12 +9,12 @@
 
     <groupId>tuto.springframework.petclinic</groupId>
     <artifactId>pet-clinic-web</artifactId>
-  <version>1.2</version>
+  <version>1.1</version>
     <dependencies>
         <dependency>
             <artifactId>pet-clinic-data</artifactId>
             <groupId>tuto.springframework.petclinic</groupId>
-            <version>1.2</version>
+            <version>1.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -52,6 +52,6 @@
 
 
   <scm>
-    <tag>pet-clinic-1.2</tag>
+    <tag>pet-clinic-1.1</tag>
   </scm>
 </project>
