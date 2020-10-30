@@ -1,11 +1,12 @@
 package tuto.springframework.petclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import tuto.springframework.petclinic.model.Pet;
 import tuto.springframework.petclinic.services.CrudService;
 import tuto.springframework.petclinic.services.PetService;
 
 import java.util.Set;
-
+@Service
 public class PetServiceMap extends AbstractmapService<Pet,Long> implements PetService {
 
 
