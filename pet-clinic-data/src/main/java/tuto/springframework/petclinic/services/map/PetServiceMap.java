@@ -2,10 +2,11 @@ package tuto.springframework.petclinic.services.map;
 
 import tuto.springframework.petclinic.model.Pet;
 import tuto.springframework.petclinic.services.CrudService;
+import tuto.springframework.petclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractmapService<Pet,Long> implements CrudService<Pet,Long> {
+public class PetServiceMap extends AbstractmapService<Pet,Long> implements PetService {
 
 
     @Override
