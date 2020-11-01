@@ -1,6 +1,6 @@
 package tuto.springframework.petclinic.model;
 
-public class petType extends BaseEntity{
+public class PetType extends BaseEntity{
     private String name ;
 
     public String getName() {

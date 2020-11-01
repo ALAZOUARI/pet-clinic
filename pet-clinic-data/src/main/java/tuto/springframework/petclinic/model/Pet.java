@@ -3,15 +3,15 @@ package tuto.springframework.petclinic.model;
 import java.time.LocalDate;
 
 public class Pet extends BaseEntity{
-    private petType petType ;
+    private PetType petType ;
     private Owner owner ;
     private LocalDate birthDate;
 
-    public tuto.springframework.petclinic.model.petType getPetType() {
+    public PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(tuto.springframework.petclinic.model.petType petType) {
+    public void setPetType(PetType petType) {
         this.petType = petType;
     }
 
